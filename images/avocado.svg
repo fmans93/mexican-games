@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Avocado body -->
+    <path d="M30 40 Q50 20 70 40 Q90 60 70 80 Q50 100 30 80 Q10 60 30 40 Z" fill="#006400"/>
+    
+    <!-- Inside -->
+    <circle cx="50" cy="60" r="15" fill="#FFE4B5"/>
+    
+    <!-- Pit -->
+    <circle cx="50" cy="60" r="8" fill="#8B4513"/>
+</svg>

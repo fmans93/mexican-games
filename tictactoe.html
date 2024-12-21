@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Línea - ¡No Way José!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 400px;
+            margin: 20px auto;
+            background: #45322E;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .cell {
+            aspect-ratio: 1;
+            background: white;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-family: 'Permanent Marker', cursive;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cell:hover {
+            background: #f1f2f6;
+        }
+
+        .cell.x {
+            color: #ff4757;
+        }
+
+        .cell.o {
+            color: #2ed573;
+        }
+
+        .status {
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        .reset-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #ff4757;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        .reset-button:hover {
+            background: #ff2e44;
+        }
+
+        @media (max-width: 500px) {
+            .game-board {
+                max-width: 300px;
+            }
+
+            .cell {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back to Menu</a>
+        
+        <header>
+            <h1>Tres en Línea</h1>
+        </header>
+
+        <div class="status" id="status">Player X's turn</div>
+        <div class="game-board" id="board"></div>
+        <button class="reset-button" id="resetButton">Reset Game</button>
+    </div>
+
+    <audio id="moveSound" src="sounds/move.wav"></audio>
+    <audio id="winSound" src="sounds/win.wav"></audio>
+
+    <script src="js/tictactoe.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Chili pepper -->
+    <path d="M60 20 Q65 30 50 40 Q20 60 30 80 Q40 90 50 80 Q80 60 70 40 Q65 30 70 20 Z" fill="#FF0000"/>
+    
+    <!-- Stem -->
+    <path d="M65 20 Q70 10 60 10 Q50 10 55 20" fill="#228B22"/>
+</svg>
