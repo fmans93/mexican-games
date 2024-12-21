@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50" height="100" viewBox="0 0 50 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Corn shape -->
+    <path d="M25 0 L40 20 L40 80 L25 100 L10 80 L10 20 Z" fill="#FFD700"/>
+    
+    <!-- Kernels -->
+    <circle cx="25" cy="30" r="3" fill="#DAA520"/>
+    <circle cx="25" cy="40" r="3" fill="#DAA520"/>
+    <circle cx="25" cy="50" r="3" fill="#DAA520"/>
+    <circle cx="25" cy="60" r="3" fill="#DAA520"/>
+    <circle cx="25" cy="70" r="3" fill="#DAA520"/>
+    
+    <!-- Husk -->
+    <path d="M10 20 Q0 50 10 80" fill="none" stroke="#90EE90" stroke-width="3"/>
+    <path d="M40 20 Q50 50 40 80" fill="none" stroke="#90EE90" stroke-width="3"/>
+</svg>
