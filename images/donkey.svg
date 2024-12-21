@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Body -->
+    <ellipse cx="50" cy="55" rx="35" ry="25" fill="#8B4513"/>
+    
+    <!-- Head -->
+    <path d="M75 45 Q85 35 85 45 L85 55 Q85 65 75 55 Z" fill="#8B4513"/>
+    
+    <!-- Ears -->
+    <path d="M75 35 L85 25 L85 35 Z" fill="#8B4513"/>
+    <path d="M75 40 L85 30 L85 40 Z" fill="#8B4513"/>
+    
+    <!-- Legs -->
+    <rect x="30" y="70" width="5" height="20" fill="#8B4513"/>
+    <rect x="65" y="70" width="5" height="20" fill="#8B4513"/>
+    
+    <!-- Eye -->
+    <circle cx="80" cy="45" r="2" fill="black"/>
+    
+    <!-- Smile -->
+    <path d="M80 50 Q82 52 84 50" fill="none" stroke="black" stroke-width="1"/>
+</svg>
